@@ -1,0 +1,32 @@
+site_name: Cablin
+
+nav:
+  - Home: index.md
+  - Cablin UI Demo: try-online.md
+  - User Guide:
+    - Schema Spec: user-guide/schema-spec.md
+    - Schema Examples: user-guide/schema-examples.md
+    - C++ Interpreter: user-guide/try-interpreter.md
+  - Future Plan: future.md
+
+theme:
+  name: readthedocs
+
+  highlightjs: true
+  hljs_style: github
+  hljs_languages:
+    - yaml
+    - cpp
+    - bash
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+
+  - mdx_math:
+      enable_dollar_delimiter: True
+
+  - tables
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
