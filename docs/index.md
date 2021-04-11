@@ -15,7 +15,7 @@ Script schema support:
 * Package import
 * **Imbedd package function**
 
-A schema spec can be read [here](/user-guide/schema-spec).
+A schema spec can be read [here](./user-guide/schema-spec).
 
 The Cablin interpreter currently supports YAML, a human-readable exchange form.
 
